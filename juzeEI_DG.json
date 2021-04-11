@@ -316,15 +316,6 @@
                         }]
                 }, 
                 {
-                 "id":133,
-                 "properties":[
-                        {
-                         "name":"jitsiRoom",
-                         "type":"string",
-                         "value":"Saal"
-                        }]
-                }, 
-                {
                  "id":134,
                  "properties":[
                         {
@@ -925,15 +916,6 @@
                          "name":"collides",
                          "type":"bool",
                          "value":true
-                        }]
-                }, 
-                {
-                 "id":390,
-                 "properties":[
-                        {
-                         "name":"exitUrl",
-                         "type":"string",
-                         "value":"https:\/\/play.workadventu.re\/@\/sffi-e.v.\/dragondinner\/juze2_og1"
                         }]
                 }],
          "tilewidth":32
