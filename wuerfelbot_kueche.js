@@ -63,24 +63,24 @@ function getRndInteger( max) {
 // ------- willkommentext in Chat schrieben -------
 
 WA.sendChatMessage('Willkommen', 'Würfelbot_Küche');
-WA.sendChatMessage('schrieb im Chat >>#1w20<< oder >>#3w6<<', 'Würfelbot_Küche');
+WA.sendChatMessage('schrieb im Chat >>1w20<< oder >>3w6<< oder >>4wF', 'Würfelbot_Küche');
 
 // ---------------------------------------------------------------------
 // ------- Callback um den in Chat mitzulesen -------
 // ---------------------------------------------------------------------
 WA.onChatMessage((message => {
     console.log('The user typed a message', message);
-    
+        
 	var wuerfelAnz =0;
 	var wuerfelArt =0;
 	var wurfsumme=0; var wurf=0;
-	var wuerfelstr='##'
+	var wuerfelstr=''
 	// --- Nutzer Fragen ---
 	var antwMitW = message.split('W',2);
 	var antwMitw = message.split('w',2);
 	var antwMitD = message.split('D',2);
 	var antwMitd = message.split('d',2);
-	if(antwMitW.length==2) {
+    if(antwMitW.length==2) {
 		 wuerfelAnz = antwMitW[0] ; wuerfelArt = antwMitW[1];
 	}
 	if(antwMitw.length==2) {
