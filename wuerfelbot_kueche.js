@@ -74,6 +74,7 @@ WA.onChatMessage((message => {
 	var wuerfelAnz =0;
 	var wuerfelArt =0;
 	var wurfsumme=0; var wurf=0;
+	var wuerfelstr='##'
 	// --- Nutzer Fragen ---
 	var antwMitW = message.split('W',2);
 	var antwMitw = message.split('w',2);
@@ -134,8 +135,7 @@ WA.onChatMessage((message => {
 		setGameData.send(daten);
 */
 	} //endif Fatewürfel
-} //endif (antwort != null) 
-};
+
 
     
 })); // Ende Callback "WA.onChatMessage((message => {"
