@@ -65,6 +65,12 @@
  "nextlayerid":5,
  "nextobjectid":1,
  "orientation":"orthogonal",
+ "properties":[
+        {
+         "name":"script",
+         "type":"string",
+         "value":"wuerfelbot_kueche.js"
+        }],
  "renderorder":"right-down",
  "tiledversion":"1.4.3",
  "tileheight":32,
