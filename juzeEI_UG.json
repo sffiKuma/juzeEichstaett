@@ -559,15 +559,6 @@
                         }]
                 }, 
                 {
-                 "id":95,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
                  "id":99,
                  "properties":[
                         {
